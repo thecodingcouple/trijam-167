@@ -19,7 +19,10 @@ Animal Images:
 * Serpent: https://unsplash.com/photos/xfpGpk4u8fU
 
 Animal Sounds:
-* Beast Sounds Volume 1
+* [Animal and Beast Sounds Volume 1](https://assetstore.unity.com/packages/audio/sound-fx/animals/beast-animal-sounds-176517)
+
+Feedback Sounds:
+* Cute Game Music & Sound Effects
 
 ## Useful Resources
 

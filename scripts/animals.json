@@ -2,49 +2,49 @@
     {
         "name": "Cow",
         "imageFileName": "amber-kipp-Mm_D_kbvTUM-unsplash.jpg",
-        "soundFileName": "",
+        "soundFileName": "cow.wav",
         "photoAuthor": "Amber Kipp",
         "downloadUrl": "https://unsplash.com/photos/Mm_D_kbvTUM"
     },
     {
         "name": "Bear",
         "imageFileName": "becca-_r6w0R6SueQ-unsplash.jpg",
-        "soundFileName": "",
+        "soundFileName": "bear.wav",
         "photoAuthor": "Becca",
         "downloadUrl": "https://unsplash.com/photos/_r6w0R6SueQ"
     },
     {
         "name": "Pig",
         "imageFileName": "nicolas-castez-YKAJ2kQpqQw-unsplash.jpg",
-        "soundFileName": "",
+        "soundFileName": "pig.wav",
         "photoAuthor": "Nicolas Castez",
         "downloadUrl": "https://unsplash.com/photos/YKAJ2kQpqQw"
     },
     {
         "name": "Horse",
         "imageFileName": "sarah-olive-TGl7QuHRIDM-unsplash.jpg",
-        "soundFileName": "",
+        "soundFileName": "horse.wav",
         "photoAuthor": "Sarah Olive",
         "downloadUrl": "https://unsplash.com/photos/TGl7QuHRIDM"
     },
     {
         "name": "Serpent",
         "imageFileName": "tirza-van-dijk-xfpGpk4u8fU-unsplash.jpg",
-        "soundFileName": "",
+        "soundFileName": "serpent.wav",
         "photoAuthor": "Tirza van Dijk",
         "downloadUrl": "https://unsplash.com/photos/xfpGpk4u8fU"
     },
     {
         "name": "Dog",
         "imageFileName": "victor-grabarczyk-N04FIfHhv_k-unsplash.jpg",
-        "soundFileName": "",
+        "soundFileName": "dog.wav",
         "photoAuthor": "Vicotr Grabarczyk",
         "downloadUrl": "https://unsplash.com/photos/N04FIfHhv_k"
     },
     {
         "name": "Lion",
         "imageFileName": "zdenek-machacek-UxHol6SwLyM-unsplash.jpg",
-        "soundFileName": "",
+        "soundFileName": "lion.wav",
         "photoAuthor": "Zdenek Machacek",
         "downloadUrl": "https://unsplash.com/photos/UxHol6SwLyM"
     }
