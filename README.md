@@ -9,6 +9,18 @@ Source code for our Trijam #167 entry. The theme is "heighten senses."
 
 ## Third Party Assets
 
+Animal Images:
+* Horse: https://unsplash.com/photos/TGl7QuHRIDM
+* Lion: https://unsplash.com/photos/UxHol6SwLyM
+* Dog: https://unsplash.com/photos/N04FIfHhv_k
+* Pig: https://unsplash.com/photos/YKAJ2kQpqQw
+* Cow: https://unsplash.com/photos/Mm_D_kbvTUM
+* Bear: https://unsplash.com/photos/_r6w0R6SueQ
+* Serpent: https://unsplash.com/photos/xfpGpk4u8fU
+
+Animal Sounds:
+* Beast Sounds Volume 1
+
 ## Useful Resources
 
 ## Project Setup
