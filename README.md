@@ -35,6 +35,7 @@ Feedback Sounds:
 * [Box shadow not showing on the top or bottom](https://stackoverflow.com/questions/14818780/box-shadow-not-showing-on-the-top-or-bottom) (Adding `position: relative` did the trick)
 * [How to fix CSS not linking to your HTML Document](https://sebhastian.com/css-not-linking-html/) (Just needed a hard reload :facepalm:) 
 * [Uncaught (in promise) DOMException: play() failed because the user didn't interact with the document first](https://stackoverflow.com/questions/49930680/how-to-handle-uncaught-in-promise-domexception-play-failed-because-the-use)
+* [Background color doesn't stretch but instead repeats](https://stackoverflow.com/questions/2869212/css3-gradient-background-set-on-body-doesnt-stretch-but-instead-repeats) (Need to add `background-attachment: fixed` to body)
 
 ## Project Setup
 
