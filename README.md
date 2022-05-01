@@ -7,6 +7,8 @@ Source code for our Trijam #167 entry. The theme is "heighten senses."
 
 ## Built With
 
+* [Color Hunt (palette generator)](https://colorhunt.co/palette/125b50f8b400faf5e4ff6363)
+
 ## Third Party Assets
 
 Animal Images:
@@ -26,7 +28,16 @@ Feedback Sounds:
 
 ## Useful Resources
 
+* [Box shadow not showing on the top or bottom](https://stackoverflow.com/questions/14818780/box-shadow-not-showing-on-the-top-or-bottom) (Adding `position: relative` did the trick)
+* [How to fix CSS not linking to your HTML Document](https://sebhastian.com/css-not-linking-html/) (Just needed a hard reload :facepalm:) 
+
 ## Project Setup
+
+Run with local web server
+
+```
+python -m http.server 8000
+```
 
 ## License (MIT)
 
