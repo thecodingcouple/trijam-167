@@ -27,9 +27,10 @@ function createAnimalButtons(data) {
 
     for(const animal of data) {
         let button = document.createElement("button");
+        button.id = animal.name;
         button.appendChild(createAnimalFigure(animal));
         button.onclick = () => {
-            onAnimalButtonClicked(animal);
+            playAnimalSound(animal);
         };
 
         buttonGroup.appendChild(button);
@@ -56,11 +57,11 @@ function createAnimalFigure(data) {
 }
 
 /**
- * 
- * @param {*} animal 
+ * Play given audio file
+ * @param {*} soundFileName 
  */
-function onAnimalButtonClicked(animal) {
-    const audioUrl = `sounds/${animal.soundFileName}`;
+function playSound(soundFileName) {
+    const audioUrl = `sounds/${soundFileName}`;
     new Audio(audioUrl).play();
 }
 
@@ -117,12 +118,73 @@ function playSounds(sounds) {
  * @param {*} data 
  */
 function startGame(data) {
+    let isGameOver = false;
     // Generate game sequence
     let soundSequence = generateGameSoundSequence(data);
-    console.log(soundSequence.map(s => s));
 
     const sounds = soundSequence.map(animal => `sounds/${animal.soundFileName}`);
     playSounds(sounds);
+
+    // Get animal buttons
+    let guesses = [];
+    const animalButtons = document.getElementById("animal-button-group").children;
+
+    // Get start button
+    const startButton = document.getElementById("start-button");
+
+    // End game message
+    const endgameMessage = document.getElementById("endgame-message");
+    endgameMessage.style.visibility = 'hidden';
+
+    for(let button of animalButtons) {
+        let animal = data.find(d => d.name == button.id);
+
+        button.onclick = () => {
+            playSound(animal.soundFileName);
+            guesses.push(animal);
+
+            let isCorrect = verifyGuess(guesses, soundSequence);
+
+            if (!isCorrect) {
+                playSound('negative.wav');
+                isGameOver = true;
+            } else if (isCorrect && guesses.length >= soundSequence.length) {
+                playSound('positive.wav');
+                isGameOver = true;
+            } 
+            
+            if(isGameOver) {
+                if(isCorrect) {
+                    endgameMessage.innerHTML = 'Well done!';
+                } else {
+                    endgameMessage.innerHTML = 'Oh no! Try again!';
+                }
+
+                
+                endgameMessage.style.visibility = 'visible';
+                startButton.style.visibility = 'visible';
+            }
+        };
+    }
+    
+}
+
+/**
+ * 
+ * @param {*} guesses 
+ * @param {*} sequence 
+ */
+function verifyGuess(guesses, sequence) {
+    isCorrectGuess = true;
+
+    for(let x in guesses) {
+        if(guesses[x].name != sequence[x].name) {
+            isCorrectGuess = false;
+            break;
+        }
+    }
+    
+    return isCorrectGuess;
 }
 
 
@@ -146,6 +208,9 @@ function startGame(data) {
     const startButton = document.getElementById("start-button");
     startButton.addEventListener("click", () => {
         startGame(data);
+
+        startButton.innerHTML = "Replay Game";
+        startButton.style.visibility = 'hidden';
     });
 }
 

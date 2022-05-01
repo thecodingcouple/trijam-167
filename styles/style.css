@@ -5,14 +5,14 @@
     --rosepink: #ff6363;
 }
 
+body,
 html {
-    height: 100vh;
-}
-
-body {
     height: 100%;
     padding: 0;
     margin: 0;
+}
+
+body {
     display: flex;
     flex-direction: column;
     font-family: 'Sniglet', sans-serif;
@@ -35,6 +35,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 5%;
 }
 
 main > button {
@@ -53,6 +54,7 @@ main > button {
 footer {
     text-align: center;
     padding: 10px;
+    background-color: var(--gold);
 }
 
 figure {
@@ -82,6 +84,20 @@ footer > a {
     width: 15%;
     min-width: 160px;
     display: flex;
-    align-items: center;
     justify-content: center;
+}
+
+#info-message, 
+#endgame-message {
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+}
+
+#endgame-message {
+    margin-top: 5%;
+}
+
+#info-message {
+    margin-bottom: 5%;
 }
