@@ -30,6 +30,7 @@ Feedback Sounds:
 
 * [Box shadow not showing on the top or bottom](https://stackoverflow.com/questions/14818780/box-shadow-not-showing-on-the-top-or-bottom) (Adding `position: relative` did the trick)
 * [How to fix CSS not linking to your HTML Document](https://sebhastian.com/css-not-linking-html/) (Just needed a hard reload :facepalm:) 
+* [Uncaught (in promise) DOMException: play() failed because the user didn't interact with the document first](https://stackoverflow.com/questions/49930680/how-to-handle-uncaught-in-promise-domexception-play-failed-because-the-use)
 
 ## Project Setup
 
