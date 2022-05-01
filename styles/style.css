@@ -17,6 +17,7 @@ body {
     flex-direction: column;
     font-family: 'Sniglet', sans-serif;
     background: linear-gradient(var(--palegold), var(--gold));
+    background-repeat: no-repeat;
 }
 
 header {
@@ -40,6 +41,14 @@ footer {
     padding: 10px;
 }
 
+figure {
+    margin: 15px;
+}
+
+img {
+    width: 100%;
+}
+
 header > a,
 footer > a {
     color: var(--palegold);
@@ -57,9 +66,13 @@ footer > a {
 
 #animal-button-group > button {
     margin: 0.5rem;
-    width: clamp(100px, 15%, 25%);
-    height: clamp(100px, 15%, 25%);
+    width: 15%;
+    min-width: 160px;
     font-family: inherit;
     font-size: 2rem;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }

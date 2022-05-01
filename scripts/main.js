@@ -27,7 +27,7 @@ function createAnimalButtons(data) {
 
     for(const animal of data) {
         let button = document.createElement("button");
-        button.innerHTML = animal.name;
+        button.appendChild(createAnimalFigure(animal));
         button.onclick = () => {
             onAnimalButtonClicked(animal);
         };
@@ -36,12 +36,27 @@ function createAnimalButtons(data) {
     }
 }
 
+function createAnimalFigure(data) {
+    let figure = document.createElement("figure");
+    let image = document.createElement("img");
+    let figCaption = document.createElement("figcaption");
+
+    image.src = `images/${data.imageFileName}`;
+    figCaption.innerHTML = data.name;
+
+    figure.appendChild(image);
+    figure.appendChild(figCaption);
+
+    return figure;
+}
+
 /**
  * 
  * @param {*} animal 
  */
 function onAnimalButtonClicked(animal) {
-    console.log(animal.name);
+    const audioUrl = `sounds/${animal.soundFileName}`;
+    new Audio(audioUrl).play();
 }
 
 /**
