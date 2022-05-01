@@ -84,7 +84,7 @@ function getRandomInt(min, max) {
  * @returns 
  */
 function generateGameSoundSequence(data) {
-    const sequenceCount = 4;
+    const sequenceCount = 5;
     let sequence = [];
 
     // Randomly add animals to game sequence 
