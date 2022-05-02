@@ -9,7 +9,7 @@ Animal Sounds Simon-like game where players must listen carefully to the order i
 
 Click the buttons in the correct sequence to win the game! [Play it here.](https://thecodingcouple.github.io/trijam-167/)
 
-[Animal Sounds Screenshot](images/screenshot1.png)
+![Animal Sounds Screenshot](images/screenshot1.png)
 
 ## Built With
 
