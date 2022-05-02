@@ -13,6 +13,7 @@ Click the buttons in the correct sequence to win the game! [Play it here.](https
 
 ## Built With
 
+* Vanilla JS
 * [Color Hunt (palette generator)](https://colorhunt.co/palette/125b50f8b400faf5e4ff6363)
 
 ## Third Party Assets
