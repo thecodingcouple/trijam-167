@@ -5,7 +5,7 @@ Source code for our Trijam #167 entry. The theme is "heighten senses."
 
 ## Synopsis
 
-Animal Sounds Simon-like game where players must listen carefully to the order in which the animal sounds are made. 
+Animal Sounds is a Simon-like game where players must listen carefully to the order in which the animal sounds are made. 
 
 Click the buttons in the correct sequence to win the game! [Play it here.](https://thecodingcouple.github.io/trijam-167/)
 
