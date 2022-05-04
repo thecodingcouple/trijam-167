@@ -24,6 +24,7 @@ async function getAnimalData() {
  */
 function createAnimalButtons(data) {
     const buttonGroup = document.getElementById('animal-button-group');
+    buttonGroup.innerHTML = '';
 
     for(const animal of data) {
         let button = document.createElement("button");
@@ -187,30 +188,47 @@ function verifyGuess(guesses, sequence) {
     return isCorrectGuess;
 }
 
+function getRandomAnimals(animals) {
+    const MAX_ANIMAL_COUNT = 4;
+    let splicedAnimals = structuredClone(animals);
+
+    // Randomly remove animals from data for game variability 
+    for(let x = 1; x < MAX_ANIMAL_COUNT; x++) {
+        let randomIndex = getRandomInt(0, splicedAnimals.length);
+        splicedAnimals.splice(randomIndex, 1);
+    }
+
+    return splicedAnimals;
+}
+
 
 /**
  * Main function
  */
  async function main() {
-    const MAX_ANIMAL_COUNT = 4;
+    let isReplay = false;
     let data = await getAnimalData();
+    let randomAnimals = getRandomAnimals(data);
 
-    // Randomly remove animals from data for game variability 
-    for(let x = 1; x < MAX_ANIMAL_COUNT; x++) {
-        let randomIndex = getRandomInt(0, data.length);
-        data.splice(randomIndex, 1);
-    }
-
-    // Create animal buttons
-    createAnimalButtons(data);
+    // Create initial animal buttons
+    createAnimalButtons(randomAnimals);
 
     // Add listener to start game
     const startButton = document.getElementById("start-button");
     startButton.addEventListener("click", () => {
-        startGame(data);
+        if(isReplay) {
+            // Refresh the animals on replay
+            randomAnimals = getRandomAnimals(data);
+
+            // Create animal buttons
+            createAnimalButtons(randomAnimals);
+        }
+
+        startGame(randomAnimals);
 
         startButton.innerHTML = "Replay Game";
         startButton.style.visibility = 'hidden';
+        isReplay = true;
     });
 }
 

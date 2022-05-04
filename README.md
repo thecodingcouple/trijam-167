@@ -47,6 +47,10 @@ Run with local web server
 python -m http.server 8000
 ```
 
+## Maintainers
+
+* [Ashley Grenon - @townsean](https://github.com/townsean)
+
 ## License (MIT)
 
 MIT License
