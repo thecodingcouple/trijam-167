@@ -48,6 +48,11 @@ Run with local web server
 python -m http.server 8000
 ```
 
+## Ideas for future improvements
+
+* Allow players the ability to select game difficulty
+* Add a visual of the sound waves when the animal sounds are playing 
+
 ## Maintainers
 
 * [Ashley Grenon - @townsean](https://github.com/townsean)
