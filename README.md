@@ -1,7 +1,7 @@
 # trijam-167
 Source code for our Trijam #167 entry. The theme is "heighten senses."
 
-[Trijam](https://itch.io/jam/trijam-167) is a weekly game jam where the goal is to create a game in under 3 hours of development time. 
+[Trijam](https://itch.io/jam/trijam-167) is a weekly game jam where the goal is to create a game in under 3 hours of development time.  Click here to view the [Animal Sounds submission page](https://itch.io/jam/trijam-167/rate/1511496).
 
 ## Synopsis
 
