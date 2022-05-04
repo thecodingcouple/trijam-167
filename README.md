@@ -7,7 +7,7 @@ Source code for our Trijam #167 entry. The theme is "heighten senses."
 
 Animal Sounds is a Simon-like game where players must listen carefully to the order in which the animal sounds are made. 
 
-Click the buttons in the correct sequence to win the game! [Play it here](https://thecodingcouple.github.io/trijam-167/), and click here to view the [submission page](https://itch.io/jam/trijam-167/rate/1511496).
+Click the buttons in the correct sequence to win the game! [Play it here](https://thecodingcouple.github.io/trijam-167/), and [click here](https://itch.io/jam/trijam-167/rate/1511496) to view the submission page.
 
 ![Animal Sounds Screenshot](images/screenshot1.png)
 
