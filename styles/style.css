@@ -71,6 +71,10 @@ footer > a {
     text-decoration: none;
 }
 
+button {
+    background: rgb(239, 239, 239);
+}
+
 #animal-button-group {
     width: 100%;
     display: flex;
