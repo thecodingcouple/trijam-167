@@ -1,13 +1,13 @@
 # trijam-167
 Source code for our Trijam #167 entry. The theme is "heighten senses."
 
-[Trijam](https://itch.io/jam/trijam-167) is a weekly game jam where the goal is to create a game in under 3 hours of development time.  Click here to view the [Animal Sounds submission page](https://itch.io/jam/trijam-167/rate/1511496).
+[Trijam](https://itch.io/jam/trijam-167) is a weekly game jam where the goal is to create a game in under 3 hours of development time.
 
 ## Synopsis
 
 Animal Sounds is a Simon-like game where players must listen carefully to the order in which the animal sounds are made. 
 
-Click the buttons in the correct sequence to win the game! [Play it here.](https://thecodingcouple.github.io/trijam-167/)
+Click the buttons in the correct sequence to win the game! [Play it here](https://thecodingcouple.github.io/trijam-167/), and click here to view the [submission page](https://itch.io/jam/trijam-167/rate/1511496).
 
 ![Animal Sounds Screenshot](images/screenshot1.png)
 
