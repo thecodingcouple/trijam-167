@@ -11,6 +11,8 @@ Click the buttons in the correct sequence to win the game! [Play it here](https:
 
 ![Animal Sounds Screenshot](images/screenshot1.png)
 
+Animal Sounds ranked [number 25 out of 35 entries](https://itch.io/jam/trijam-167/results).
+
 ## Built With
 
 * Vanilla JS
